@@ -27,11 +27,7 @@ sales_tax = sub_charge * 0.07
 total = sub_charge + tip + sales_tax
 
 print('\n')
-print('Price of meal: $', end = '')
-print('{:.2f}'.format(sub_charge))
-print('18% tip: $', end = '')
-print('{:.2f}'.format(tip))
-print('7% sales tax: $', end = '')
-print('{:.2f}'.format(sales_tax))
-print('Total cost: $', end = '')
-print('{:.2f}'.format(total))
+print('Price of meal: ${:.2f}'.format(sub_charge))
+print('18% tip: ${:.2f}'.format(tip))
+print('7% sales tax: ${:.2f}'.format(sales_tax))
+print('Total cost: ${:.2f}'.format(total))
