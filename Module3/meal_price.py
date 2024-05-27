@@ -20,14 +20,21 @@ while not valid:
     sub_charge_str = input('Invalid entry. Please enter the cost of your meal: ')
     valid = is_float(sub_charge_str) or sub_charge_str.isdigit()
 
-sub_charge = float(sub_charge_str)
+# Create a list for all the costs to demonstrate knowledge of Python lists
+all_costs = []
 
+sub_charge = float(sub_charge_str)
 tip = sub_charge * 0.18
 sales_tax = sub_charge * 0.07
 total = sub_charge + tip + sales_tax
 
+all_costs.append(sub_charge)
+all_costs.append(tip)
+all_costs.append(sales_tax)
+all_costs.append(total)
+
 print('\n')
-print('Price of meal: ${:.2f}'.format(sub_charge))
-print('18% tip: ${:.2f}'.format(tip))
-print('7% sales tax: ${:.2f}'.format(sales_tax))
-print('Total cost: ${:.2f}'.format(total))
+print('Price of meal: ${:.2f}'.format(all_costs[0]))
+print('18% tip: ${:.2f}'.format(all_costs[1]))
+print('7% sales tax: ${:.2f}'.format(all_costs[2]))
+print('Total cost: ${:.2f}'.format(all_costs[3]))

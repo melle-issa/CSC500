@@ -16,9 +16,9 @@ def validate_hour(string):
     
     return True
 
-def set_alarm(current_hour, hours_from_now):
-    hours_passed = current_hour + hours_from_now
-    return hours_passed % 24
+def set_alarm(current_hour, hours_from_now, clock):
+    clock_index = (current_hour + hours_from_now) % 24
+    return clock[clock_index]
 
 hour_str = input('Enter the current hour between 0 and 23: ')
 
@@ -35,5 +35,8 @@ while not alarm_hours_str.isdigit():
 
 alarm_hours = int(alarm_hours_str)
 
-time_on_clock = set_alarm(hour, alarm_hours)
+# Create an array of all the times on a clock to demonstrate understanding of Python arrays
+clock = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
+
+time_on_clock = set_alarm(hour, alarm_hours, clock)
 print('It will be', time_on_clock, 'when your alarm goes off')
