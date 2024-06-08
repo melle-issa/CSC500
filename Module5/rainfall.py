@@ -59,5 +59,5 @@ for i in range(years):
     print()
 
 print('Total number of months: {}'.format(months))
-print('Total rainfall: {}'.format(total_rainfall))
-print('Average rainfall per month for the {} year period: {}'.format(years, total_rainfall / months))
+print('Total rainfall: {:.3f}'.format(total_rainfall))
+print('Average rainfall per month for the {} year period: {:.3f}'.format(years, total_rainfall / months))

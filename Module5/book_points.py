@@ -13,14 +13,8 @@ while not books.isdigit():
     books = input('Please enter a valid integer: ')
 
 books = int(books)
+points = 0
 
-if books < 2:
-    print('You\'ve earned 0 points this month')
-elif books < 4:
-    print('You\'ve earned 5 points this month')
-elif books < 6:
-    print('You\'ve earned 15 points this month')
-elif books < 8:
-    print('You\'ve earned 30 points this month')
-else:
-    print('You\'ve earned 60 points this month')
+points = 0 if books <= 1 else 5 if books < 4 else 15 if books < 6 else 30 if books < 8 else 60
+
+print('\nYou\'ve earned {} points this month!'.format(points))
