@@ -16,3 +16,7 @@ For the milestone assignment, I made an online shopping cart application. I need
 ## Critical Thinking Assignment 5
 For this CTA, I needed to make a program that asks users for a number of years, and then iterates over all the months of the year for each year and asks about the rainfall for each month. Then at the end, we total the rainfall and find the average for all the months passed. Secondly, I needed to make a program that prompts users to enter the number of books they purchased this month and then output the number of rewards points they received based on that amount. <br/>
 [Link to Module 5](https://github.com/melle-issa/CSC500/tree/main/Module5)
+
+## Milestone for Module 6
+The milestone assignment for Module 6 is an extension of what we implemented in Module 4. This time, we needed to add funcitonality for a ShoppingCart class instead of just having the cart be a list of ItemToPurchase objects. Along with this, we also needed to add a menu function that allows the users to add, remove, change, and view the contents of the cart.<br/>
+[Link to Module 6](https://github.com/melle-issa/CSC500/tree/main/Module6)
