@@ -152,10 +152,10 @@ def print_menu(cart):
             # place holder until module 8
             continue
         elif choice == 'i':
-            print()
+            print('\nOUTPUT ITEMS\' DESCRIPTIONS')
             cart.print_descriptions()
         elif choice == 'o':
-            print()
+            print('\nOUTPUT SHOPPING CART')
             cart.print_total()
         elif choice == 'q':
             break
