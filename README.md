@@ -22,5 +22,5 @@ The milestone assignment for Module 6 is an extension of what we implemented in 
 [Link to Module 6](https://github.com/melle-issa/CSC500/tree/main/Module6)
 
 ## Critical Thinking Assignment 7
-This critical thinking assignment prompted me to create 3 predefined dicitonaries with the room number, instructor, and meeting times for a few courses given to us in the directions. I also decided to add the ability to add courses to these dictionaries should the user try to search for a course that doesn't already exist. The user can enter in a course number and then view all the information for that course based on the values defined in the 3 dictionaries.
+This critical thinking assignment prompted me to create 3 predefined dicitonaries with the room number, instructor, and meeting times for a few courses given to us in the directions. I also decided to add the ability to add courses to these dictionaries should the user try to search for a course that doesn't already exist. The user can enter in a course number and then view all the information for that course based on the values defined in the 3 dictionaries. <br/>
 [Link to Module 7](https://github.com/melle-issa/CSC500/tree/main/Module7)
