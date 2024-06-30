@@ -24,3 +24,7 @@ The milestone assignment for Module 6 is an extension of what we implemented in 
 ## Critical Thinking Assignment 7
 This critical thinking assignment prompted me to create 3 predefined dicitonaries with the room number, instructor, and meeting times for a few courses given to us in the directions. I also decided to add the ability to add courses to these dictionaries should the user try to search for a course that doesn't already exist. The user can enter in a course number and then view all the information for that course based on the values defined in the 3 dictionaries. <br/>
 [Link to Module 7](https://github.com/melle-issa/CSC500/tree/main/Module7)
+
+## Milestone for Module 8 - Final
+This is the final installment of the portfolio project for this class. We ended the assignment by adding funcitonality for the add item, remove item, and modify item quantity from the print_menu() funciton. We also enabled the user to enter in their name and the date of shopping for further personalization of their shopping cart. <br/>
+[Link to Module 8](https://github.com/melle-issa/CSC500/tree/main/Module8)
